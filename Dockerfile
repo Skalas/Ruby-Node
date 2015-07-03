@@ -16,5 +16,6 @@ cd /tmp/node-v0.12.2/ && \
 ./configure && \
 make && \
 make install && \
-rm -rf /tmp/*  
+rm -rf /tmp/*
+RUN npm install -g gulp bower && gem install sass 
 EXPOSE 80
